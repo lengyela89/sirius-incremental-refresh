@@ -32,10 +32,34 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <decorationDescriptionsSet>
-          <decorationDescriptions xsi:type="description_1:MappingBasedDecoration"/>
-          <decorationDescriptions xsi:type="description:SemanticBasedDecoration"/>
-        </decorationDescriptionsSet>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="dd_deployment-diagram_vql" domainClass="deployment.Deployment" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.incquery/model/deployment#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="deployment-host-applcation-state" semanticCandidatesExpression="vql: pattern behaviorState(bs : BehaviorState) {BehaviorState(bs);}" domainClass="deployment.BehaviorState">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </nodeMappings>
+        <containerMappings name="deployment-host" label="Host" semanticCandidatesExpression="vql: pattern host(host : Host) {Host(host);}" domainClass="deployment.DeploymentHost">
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:ip">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="deployment-host-application" semanticCandidatesExpression="vql: pattern deploymentApplication(da : DeploymentApplication) {DeploymentApplication(da);}" domainClass="deployment.DeploymentApplication">
+          <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
       </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
