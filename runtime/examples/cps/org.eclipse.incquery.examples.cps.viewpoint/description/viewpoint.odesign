@@ -44,7 +44,7 @@
             <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
           </style>
         </nodeMappings>
-        <containerMappings name="deployment-host" label="Host" semanticCandidatesExpression="vql: pattern host(host : Host) {Host(host);}" domainClass="deployment.DeploymentHost">
+        <containerMappings name="deployment-host" label="Host" semanticCandidatesExpression="vql: pattern host(host : DeploymentHost) {DeploymentHost(host);}" domainClass="deployment.DeploymentHost">
           <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:ip">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
