@@ -37,14 +37,30 @@
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="dd_deployment-diagram_vql" domainClass="deployment.Deployment" enablePopupBars="true">
       <metamodel href="http://org.eclipse.incquery/model/deployment#/"/>
       <defaultLayer name="Default">
-        <nodeMappings name="deployment-host-applcation-state" semanticCandidatesExpression="vql: pattern behaviorState(bs : BehaviorState) {BehaviorState(bs);}" domainClass="deployment.BehaviorState">
-          <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
-            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+        <edgeMappings name="rbe_host_applications_2" sourceMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']" targetMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']" targetFinderExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : DeploymentHost) {DeploymentHost.applications(owner, da);}">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
           </style>
-        </nodeMappings>
-        <containerMappings name="deployment-host" label="Host" semanticCandidatesExpression="vql: pattern host(host : DeploymentHost) {DeploymentHost(host);}" domainClass="deployment.DeploymentHost">
+        </edgeMappings>
+        <containerMappings name="deployment-host_2" semanticCandidatesExpression="vql: @Return(parameter=&quot;host&quot;) @Context(parameter=&quot;owner&quot;) pattern host(host : DeploymentHost, owner : Deployment) {Deployment.hosts(owner, host);}" domainClass="deployment.DeploymentHost">
+          <subContainerMappings name="deployment-host-application_2_1" semanticCandidatesExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : DeploymentHost) {DeploymentHost.applications(owner, da);}" domainClass="deployment.DeploymentApplication">
+            <subNodeMappings name="deployment-host-applcation-state_2_1" semanticCandidatesExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;owner&quot;) pattern behaviorState(bs : BehaviorState, owner : DeploymentApplication) {DeploymentApplication.behavior.states(owner, bs);}" domainClass="deployment.BehaviorState">
+              <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
           <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:ip">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -52,7 +68,70 @@
             <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
           </style>
         </containerMappings>
-        <containerMappings name="deployment-host-application" semanticCandidatesExpression="vql: pattern deploymentApplication(da : DeploymentApplication) {DeploymentApplication(da);}" domainClass="deployment.DeploymentApplication">
+        <containerMappings name="deployment-host-application_2_2" semanticCandidatesExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : Deployment) {Deployment.hosts.applications(owner, da);}" domainClass="deployment.DeploymentApplication">
+          <subNodeMappings name="deployment-host-applcation-state_2_2" semanticCandidatesExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;owner&quot;) pattern behaviorState(bs : BehaviorState, owner : DeploymentApplication) {DeploymentApplication.behavior.states(owner, bs);}" domainClass="deployment.BehaviorState">
+            <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="dd_deployment-diagram_vql3" domainClass="deployment.Deployment" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.incquery/model/deployment#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="rbe_host_applications_3" sourceMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql3']/@defaultLayer/@containerMappings[name='deployment-host_3']" targetMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql3']/@defaultLayer/@containerMappings[name='deployment-host-application_3_2']" targetFinderExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : DeploymentHost) {DeploymentHost.applications(owner, da);}">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="deployment-transition_3" semanticCandidatesExpression="vql: @Return(parameter=&quot;bt&quot;) @Context(parameter=&quot;d&quot;) pattern pattern_transition(bt, d) {Deployment.hosts.applications.behavior.transitions(d, bt);}" sourceMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql3']/@defaultLayer/@containerMappings[name='deployment-host_3']/@subContainerMappings[name='deployment-host-application_3_1']/@subNodeMappings[name='deployment-host-applcation-state_3_1']" targetMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql3']/@defaultLayer/@containerMappings[name='deployment-host_3']/@subContainerMappings[name='deployment-host-application_3_1']/@subNodeMappings[name='deployment-host-applcation-state_3_1']" targetFinderExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;bt&quot;) pattern pattern_transition(bs, bt) {    BehaviorTransition.to(bt, bs);}" sourceFinderExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;bt&quot;) pattern pattern_transition(bs, bt) {    BehaviorState.outgoing(bs, bt);}" domainClass="deployment.BehaviorTransition" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+        <containerMappings name="deployment-host_3" semanticCandidatesExpression="vql: @Return(parameter=&quot;host&quot;) @Context(parameter=&quot;owner&quot;) pattern host(host : DeploymentHost, owner : Deployment) {Deployment.hosts(owner, host);}" domainClass="deployment.DeploymentHost">
+          <subContainerMappings name="deployment-host-application_3_1" semanticCandidatesExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : DeploymentHost) {DeploymentHost.applications(owner, da);}" domainClass="deployment.DeploymentApplication">
+            <subNodeMappings name="deployment-host-applcation-state_3_1" semanticCandidatesExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;owner&quot;) pattern behaviorState(bs : BehaviorState, owner : DeploymentApplication) {DeploymentApplication.behavior.states(owner, bs);}" domainClass="deployment.BehaviorState">
+              <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:ip">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="deployment-host-application_3_2" semanticCandidatesExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : Deployment) {Deployment.hosts.applications(owner, da);}" domainClass="deployment.DeploymentApplication">
+          <subNodeMappings name="deployment-host-applcation-state_3_2" semanticCandidatesExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;owner&quot;) pattern behaviorState(bs : BehaviorState, owner : DeploymentApplication) {DeploymentApplication.behavior.states(owner, bs);}" domainClass="deployment.BehaviorState">
+            <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            </style>
+          </subNodeMappings>
           <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>

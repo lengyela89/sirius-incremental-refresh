@@ -87,4 +87,5 @@
     </applications>
   </hosts>
   <hosts/>
+  <hosts ip="1.2.3.44"/>
 </deployment:Deployment>
