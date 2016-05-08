@@ -9,19 +9,19 @@ import org.eclipse.viatra.sirius.incrementalrefresh.measurement.helpers.Measurem
 
 import com.google.common.collect.Lists;
 
-public class CommandHandler extends AbstractHandler {
+public class MeasureIncrementalCommandHandler extends AbstractHandler {
 
 	private static final String SESSION_RESOURCE = "/hu.bme.mit.inf.concerto.telecare.example.tdk.sample/representations.aird";
 	private static final String VIEWPOINT_NAME = "vp_concerto_telecare_tdk";
 	private static final String REPRESENTATION_DESCRIPTION_NAME = "dd_concerto_telecare_tdk_vql_ir";
 	
 	private List<String> models = Lists.<String>newArrayList(
-			"tc_1.telecare",
-			"tc_10.telecare",
-			"tc_25.telecare",
-			"tc_50.telecare",
-			"tc_75.telecare",
-			"tc_100.telecare"
+			"tc_1.telecare"
+//			"tc_10.telecare",
+//			"tc_25.telecare",
+//			"tc_50.telecare",
+//			"tc_75.telecare",
+//			"tc_100.telecare",
 //			"tc_150.telecare",
 //			"tc_200.telecare",
 //			"tc_300.telecare",
