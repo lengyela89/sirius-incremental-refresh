@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:deployment="http://org.eclipse.incquery/model/deployment" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:deployment="http://org.eclipse.incquery/model/deployment" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis xmi:id="_3UYt8NyVEeW05uMTllWMkw" selectedViews="_6o8O8NyVEeW05uMTllWMkw _An5gsNyWEeW05uMTllWMkw _FwM3QNyWEeW05uMTllWMkw" version="10.1.0.201509162000">
     <semanticResources>example.cyberphysicalsystem</semanticResources>
     <semanticResources>example.deployment</semanticResources>
@@ -7,483 +7,6 @@
     <semanticResources>generated/generatedDemoModel.cyberphysicalsystem</semanticResources>
     <semanticResources>traceability_0.traceability</semanticResources>
     <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_6o8O8NyVEeW05uMTllWMkw">
-      <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_do9LoOXXEeWLQcv6zST9hg" name="new deployment-diagram">
-        <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_do9ysOXXEeWLQcv6zST9hg" source="DANNOTATION_CUSTOMIZATION_KEY">
-          <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_do9yseXXEeWLQcv6zST9hg"/>
-        </ownedAnnotationEntries>
-        <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_6tD6YOXfEeWLQcv6zST9hg" source="GMF_DIAGRAMS">
-          <data xmi:type="notation:Diagram" xmi:id="_6tEhcOXfEeWLQcv6zST9hg" type="Sirius" element="_do9LoOXXEeWLQcv6zST9hg" measurementUnit="Pixel">
-            <children xmi:type="notation:Node" xmi:id="_iJ2-kPfsEeWqvtJcqxTaTQ" type="2002" element="_iJjckPfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iJ4MsPfsEeWqvtJcqxTaTQ" type="5006"/>
-              <children xmi:type="notation:Node" xmi:id="_iJ4zwPfsEeWqvtJcqxTaTQ" type="7001">
-                <children xmi:type="notation:Node" xmi:id="_iJ6B4PfsEeWqvtJcqxTaTQ" type="3008" element="_iJkqs_fsEeWqvtJcqxTaTQ">
-                  <children xmi:type="notation:Node" xmi:id="_iJ6B4_fsEeWqvtJcqxTaTQ" type="5005"/>
-                  <children xmi:type="notation:Node" xmi:id="_iJ6o8PfsEeWqvtJcqxTaTQ" type="7002">
-                    <children xmi:type="notation:Node" xmi:id="_iJ8eIPfsEeWqvtJcqxTaTQ" type="3007" element="_iJnG8PfsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iJ9FMPfsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iJ9FMffsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iJ-6YPfsEeWqvtJcqxTaTQ" type="3016" element="_iJnG8ffsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ-6YffsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ-6YvfsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ8eIffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ8eIvfsEeWqvtJcqxTaTQ" x="30" y="91" width="30" height="30"/>
-                    </children>
-                    <children xmi:type="notation:Node" xmi:id="_iJ9sQPfsEeWqvtJcqxTaTQ" type="3007" element="_iJnG8vfsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iJ9sQ_fsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iJ9sRPfsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iKBWoPfsEeWqvtJcqxTaTQ" type="3016" element="_iJnG8_fsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iKBWoffsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKBWovfsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ9sQffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ9sQvfsEeWqvtJcqxTaTQ" x="30" y="31" width="30" height="30"/>
-                    </children>
-                    <styles xmi:type="notation:SortingStyle" xmi:id="_iJ6o8ffsEeWqvtJcqxTaTQ"/>
-                    <styles xmi:type="notation:FilteringStyle" xmi:id="_iJ6o8vfsEeWqvtJcqxTaTQ"/>
-                  </children>
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ6B4ffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ6B4vfsEeWqvtJcqxTaTQ" x="31" y="30"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_iJ6o8_fsEeWqvtJcqxTaTQ" type="3008" element="_iJlRwffsEeWqvtJcqxTaTQ">
-                  <children xmi:type="notation:Node" xmi:id="_iJ7QAPfsEeWqvtJcqxTaTQ" type="5005"/>
-                  <children xmi:type="notation:Node" xmi:id="_iJ7QAffsEeWqvtJcqxTaTQ" type="7002">
-                    <children xmi:type="notation:Node" xmi:id="_iKB9sPfsEeWqvtJcqxTaTQ" type="3007" element="_iJnuAPfsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iKB9s_fsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iKB9tPfsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iKCkxffsEeWqvtJcqxTaTQ" type="3016" element="_iJnuAffsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iKCkxvfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKCkx_fsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iKB9sffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKB9svfsEeWqvtJcqxTaTQ" x="30" y="91" width="30" height="30"/>
-                    </children>
-                    <children xmi:type="notation:Node" xmi:id="_iKCkwPfsEeWqvtJcqxTaTQ" type="3007" element="_iJnuAvfsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iKCkw_fsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iKCkxPfsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iKCkyPfsEeWqvtJcqxTaTQ" type="3016" element="_iJoVEPfsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iKCkyffsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKCkyvfsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iKCkwffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKCkwvfsEeWqvtJcqxTaTQ" x="30" y="31" width="30" height="30"/>
-                    </children>
-                    <styles xmi:type="notation:SortingStyle" xmi:id="_iJ7QAvfsEeWqvtJcqxTaTQ"/>
-                    <styles xmi:type="notation:FilteringStyle" xmi:id="_iJ7QA_fsEeWqvtJcqxTaTQ"/>
-                  </children>
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ6o9PfsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ6o9ffsEeWqvtJcqxTaTQ" x="211" y="30"/>
-                </children>
-                <children xmi:type="notation:Node" xmi:id="_iJ7QBPfsEeWqvtJcqxTaTQ" type="3008" element="_iJmf4PfsEeWqvtJcqxTaTQ">
-                  <children xmi:type="notation:Node" xmi:id="_iJ7QB_fsEeWqvtJcqxTaTQ" type="5005"/>
-                  <children xmi:type="notation:Node" xmi:id="_iJ7QCPfsEeWqvtJcqxTaTQ" type="7002">
-                    <children xmi:type="notation:Node" xmi:id="_iKDL0PfsEeWqvtJcqxTaTQ" type="3007" element="_iJoVEffsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iKDL0_fsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iKDL1PfsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iKDL2vfsEeWqvtJcqxTaTQ" type="3016" element="_iJo8IPfsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iKDL2_fsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKDL3PfsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iKDL0ffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKDL0vfsEeWqvtJcqxTaTQ" x="30" y="91" width="30" height="30"/>
-                    </children>
-                    <children xmi:type="notation:Node" xmi:id="_iKDL1ffsEeWqvtJcqxTaTQ" type="3007" element="_iJo8IffsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iKDL2PfsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iKDL2ffsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iKDy4PfsEeWqvtJcqxTaTQ" type="3016" element="_iJo8IvfsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iKDy4ffsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKDy4vfsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iKDL1vfsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKDL1_fsEeWqvtJcqxTaTQ" x="30" y="31" width="30" height="30"/>
-                    </children>
-                    <styles xmi:type="notation:SortingStyle" xmi:id="_iJ7QCffsEeWqvtJcqxTaTQ"/>
-                    <styles xmi:type="notation:FilteringStyle" xmi:id="_iJ7QCvfsEeWqvtJcqxTaTQ"/>
-                  </children>
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ7QBffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ7QBvfsEeWqvtJcqxTaTQ" x="415" y="30"/>
-                </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_iJ4zwffsEeWqvtJcqxTaTQ"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_iJ4zwvfsEeWqvtJcqxTaTQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ2-kffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ2-kvfsEeWqvtJcqxTaTQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_iJ4zw_fsEeWqvtJcqxTaTQ" type="2002" element="_iJkDoffsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iJ4zxvfsEeWqvtJcqxTaTQ" type="5006"/>
-              <children xmi:type="notation:Node" xmi:id="_iJ4zx_fsEeWqvtJcqxTaTQ" type="7001">
-                <children xmi:type="notation:Node" xmi:id="_iKDy4_fsEeWqvtJcqxTaTQ" type="3008" element="_iJo8I_fsEeWqvtJcqxTaTQ">
-                  <children xmi:type="notation:Node" xmi:id="_iKDy5vfsEeWqvtJcqxTaTQ" type="5005"/>
-                  <children xmi:type="notation:Node" xmi:id="_iKDy5_fsEeWqvtJcqxTaTQ" type="7002">
-                    <children xmi:type="notation:Node" xmi:id="_iKDy6vfsEeWqvtJcqxTaTQ" type="3007" element="_iJpjMffsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iKEZ8PfsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iKEZ8ffsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iKEZ9_fsEeWqvtJcqxTaTQ" type="3016" element="_iJpjMvfsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iKEZ-PfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKEZ-ffsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iKDy6_fsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKDy7PfsEeWqvtJcqxTaTQ" x="30" y="91" width="30" height="30"/>
-                    </children>
-                    <children xmi:type="notation:Node" xmi:id="_iKEZ8vfsEeWqvtJcqxTaTQ" type="3007" element="_iJpjM_fsEeWqvtJcqxTaTQ">
-                      <children xmi:type="notation:Node" xmi:id="_iKEZ9ffsEeWqvtJcqxTaTQ" type="5003">
-                        <layoutConstraint xmi:type="notation:Location" xmi:id="_iKEZ9vfsEeWqvtJcqxTaTQ" y="5"/>
-                      </children>
-                      <children xmi:type="notation:Node" xmi:id="_iKFBAPfsEeWqvtJcqxTaTQ" type="3016" element="_iJpjNPfsEeWqvtJcqxTaTQ">
-                        <styles xmi:type="notation:ShapeStyle" xmi:id="_iKFBAffsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKFBAvfsEeWqvtJcqxTaTQ"/>
-                      </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_iKEZ8_fsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKEZ9PfsEeWqvtJcqxTaTQ" x="30" y="31" width="30" height="30"/>
-                    </children>
-                    <styles xmi:type="notation:SortingStyle" xmi:id="_iKDy6PfsEeWqvtJcqxTaTQ"/>
-                    <styles xmi:type="notation:FilteringStyle" xmi:id="_iKDy6ffsEeWqvtJcqxTaTQ"/>
-                  </children>
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_iKDy5PfsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKDy5ffsEeWqvtJcqxTaTQ" x="31" y="30"/>
-                </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_iJ4zyPfsEeWqvtJcqxTaTQ"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_iJ4zyffsEeWqvtJcqxTaTQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ4zxPfsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ4zxffsEeWqvtJcqxTaTQ" x="660"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_iJ5a0PfsEeWqvtJcqxTaTQ" type="2002" element="_iJkqsffsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iJ5a0_fsEeWqvtJcqxTaTQ" type="5006"/>
-              <children xmi:type="notation:Node" xmi:id="_iJ5a1PfsEeWqvtJcqxTaTQ" type="7001">
-                <styles xmi:type="notation:SortingStyle" xmi:id="_iJ5a1ffsEeWqvtJcqxTaTQ"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_iJ5a1vfsEeWqvtJcqxTaTQ"/>
-              </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_iJ5a0ffsEeWqvtJcqxTaTQ" fontName="Cantarell" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iJ5a0vfsEeWqvtJcqxTaTQ" x="900"/>
-            </children>
-            <styles xmi:type="notation:DiagramStyle" xmi:id="_6tFIgOXfEeWLQcv6zST9hg"/>
-            <edges xmi:type="notation:Edge" xmi:id="_iKFBA_fsEeWqvtJcqxTaTQ" type="4001" element="_iJqxUPfsEeWqvtJcqxTaTQ" source="_iJ8eIPfsEeWqvtJcqxTaTQ" target="_iJ9sQPfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKFBB_fsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKFBCPfsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKFBCffsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKFBCvfsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKFBC_fsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKFBDPfsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKFBBPfsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKFBBffsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKFBBvfsEeWqvtJcqxTaTQ" points="[0, -15, 0, 75]$[0, -75, 0, 15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKFoEPfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKFoEffsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-            <edges xmi:type="notation:Edge" xmi:id="_iKFoEvfsEeWqvtJcqxTaTQ" type="4001" element="_iJqxUvfsEeWqvtJcqxTaTQ" source="_iJ9sQPfsEeWqvtJcqxTaTQ" target="_iJ8eIPfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKFoFvfsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKFoF_fsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKFoGPfsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKFoGffsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKFoGvfsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKFoG_fsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKFoE_fsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKFoFPfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKFoFffsEeWqvtJcqxTaTQ" points="[0, 15, 0, -75]$[0, 75, 0, -15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKFoHPfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKFoHffsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-            <edges xmi:type="notation:Edge" xmi:id="_iKGPIPfsEeWqvtJcqxTaTQ" type="4001" element="_iJqxVPfsEeWqvtJcqxTaTQ" source="_iKB9sPfsEeWqvtJcqxTaTQ" target="_iKCkwPfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKGPJPfsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKGPJffsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKGPJvfsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKGPJ_fsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKGPKPfsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKGPKffsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKGPIffsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKGPIvfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKGPI_fsEeWqvtJcqxTaTQ" points="[0, -15, 0, 75]$[0, -75, 0, 15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKGPKvfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKGPK_fsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-            <edges xmi:type="notation:Edge" xmi:id="_iKGPLPfsEeWqvtJcqxTaTQ" type="4001" element="_iJrYYPfsEeWqvtJcqxTaTQ" source="_iKCkwPfsEeWqvtJcqxTaTQ" target="_iKB9sPfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKGPMPfsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKGPMffsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKGPMvfsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKGPM_fsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKGPNPfsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKGPNffsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKGPLffsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKGPLvfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKGPL_fsEeWqvtJcqxTaTQ" points="[0, 15, 0, -75]$[0, 75, 0, -15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKG2MPfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKG2MffsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-            <edges xmi:type="notation:Edge" xmi:id="_iKG2MvfsEeWqvtJcqxTaTQ" type="4001" element="_iJrYYvfsEeWqvtJcqxTaTQ" source="_iKDL0PfsEeWqvtJcqxTaTQ" target="_iKDL1ffsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKG2NvfsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKG2N_fsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKG2OPfsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKG2OffsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKG2OvfsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKG2O_fsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKG2M_fsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKG2NPfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKG2NffsEeWqvtJcqxTaTQ" points="[0, -15, 0, 75]$[0, -75, 0, 15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKG2PPfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKG2PffsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-            <edges xmi:type="notation:Edge" xmi:id="_iKG2PvfsEeWqvtJcqxTaTQ" type="4001" element="_iJrYZPfsEeWqvtJcqxTaTQ" source="_iKDL1ffsEeWqvtJcqxTaTQ" target="_iKDL0PfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKHdQPfsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKHdQffsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKHdQvfsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKHdQ_fsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKHdRPfsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKHdRffsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKG2P_fsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKG2QPfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKG2QffsEeWqvtJcqxTaTQ" points="[0, 15, 0, -75]$[0, 75, 0, -15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKHdRvfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKHdR_fsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-            <edges xmi:type="notation:Edge" xmi:id="_iKHdSPfsEeWqvtJcqxTaTQ" type="4001" element="_iJr_cPfsEeWqvtJcqxTaTQ" source="_iKDy6vfsEeWqvtJcqxTaTQ" target="_iKEZ8vfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKHdTPfsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKHdTffsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKIEUPfsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKIEUffsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKIEUvfsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKIEU_fsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKHdSffsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKHdSvfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKHdS_fsEeWqvtJcqxTaTQ" points="[0, -15, 0, 75]$[0, -75, 0, 15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKIEVPfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKIEVffsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-            <edges xmi:type="notation:Edge" xmi:id="_iKIEVvfsEeWqvtJcqxTaTQ" type="4001" element="_iJr_cvfsEeWqvtJcqxTaTQ" source="_iKEZ8vfsEeWqvtJcqxTaTQ" target="_iKDy6vfsEeWqvtJcqxTaTQ">
-              <children xmi:type="notation:Node" xmi:id="_iKIrYPfsEeWqvtJcqxTaTQ" type="6001">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKIrYffsEeWqvtJcqxTaTQ" y="-10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKIrYvfsEeWqvtJcqxTaTQ" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKJScPfsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_iKJScffsEeWqvtJcqxTaTQ" type="6003">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iKJScvfsEeWqvtJcqxTaTQ" y="10"/>
-              </children>
-              <styles xmi:type="notation:ConnectorStyle" xmi:id="_iKIEV_fsEeWqvtJcqxTaTQ" routing="Rectilinear"/>
-              <styles xmi:type="notation:FontStyle" xmi:id="_iKIEWPfsEeWqvtJcqxTaTQ" fontName="Cantarell"/>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iKIEWffsEeWqvtJcqxTaTQ" points="[0, 15, 0, -75]$[0, 75, 0, -15]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKJSc_fsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKJSdPfsEeWqvtJcqxTaTQ" id="(0.5,0.5)"/>
-            </edges>
-          </data>
-        </ownedAnnotationEntries>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iJjckPfsEeWqvtJcqxTaTQ" name="152.66.102.6">
-          <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
-          <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
-          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iJkDoPfsEeWqvtJcqxTaTQ" borderSize="1" borderSizeComputationExpression="1">
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']"/>
-          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iJkqs_fsEeWqvtJcqxTaTQ" name="Smoke Detector">
-            <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
-            <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
-            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iJlRwPfsEeWqvtJcqxTaTQ">
-              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']"/>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJnG8PfsEeWqvtJcqxTaTQ" name="SD Init" outgoingEdges="_iJqxUPfsEeWqvtJcqxTaTQ" incomingEdges="_iJqxUvfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJnG8ffsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJnG8vfsEeWqvtJcqxTaTQ" name="SD Sent" outgoingEdges="_iJqxUvfsEeWqvtJcqxTaTQ" incomingEdges="_iJqxUPfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJnG8_fsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-          </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iJlRwffsEeWqvtJcqxTaTQ" name="Alarm">
-            <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
-            <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
-            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iJlRwvfsEeWqvtJcqxTaTQ">
-              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']"/>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJnuAPfsEeWqvtJcqxTaTQ" name="A Init" outgoingEdges="_iJqxVPfsEeWqvtJcqxTaTQ" incomingEdges="_iJrYYPfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJnuAffsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJnuAvfsEeWqvtJcqxTaTQ" name="A Sent" outgoingEdges="_iJrYYPfsEeWqvtJcqxTaTQ" incomingEdges="_iJqxVPfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJoVEPfsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-          </ownedDiagramElements>
-          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iJmf4PfsEeWqvtJcqxTaTQ" name="Camera">
-            <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
-            <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
-            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iJmf4ffsEeWqvtJcqxTaTQ">
-              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']"/>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJoVEffsEeWqvtJcqxTaTQ" name="C Init" outgoingEdges="_iJrYYvfsEeWqvtJcqxTaTQ" incomingEdges="_iJrYZPfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJo8IPfsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJo8IffsEeWqvtJcqxTaTQ" name="C Sent" outgoingEdges="_iJrYZPfsEeWqvtJcqxTaTQ" incomingEdges="_iJrYYvfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJo8IvfsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-          </ownedDiagramElements>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iJkDoffsEeWqvtJcqxTaTQ" name="152.66.102.5">
-          <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
-          <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
-          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iJkqsPfsEeWqvtJcqxTaTQ" borderSize="1" borderSizeComputationExpression="1">
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']"/>
-          <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iJo8I_fsEeWqvtJcqxTaTQ" name="IBM System Storage">
-            <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
-            <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
-            <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iJpjMPfsEeWqvtJcqxTaTQ">
-              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@style"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']"/>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJpjMffsEeWqvtJcqxTaTQ" name="ISS Wait" outgoingEdges="_iJr_cPfsEeWqvtJcqxTaTQ" incomingEdges="_iJr_cvfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJpjMvfsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-            <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_iJpjM_fsEeWqvtJcqxTaTQ" name="ISS Received" outgoingEdges="_iJr_cvfsEeWqvtJcqxTaTQ" incomingEdges="_iJr_cPfsEeWqvtJcqxTaTQ" width="3" height="3" resizeKind="NSEW">
-              <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
-              <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
-              <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_iJpjNPfsEeWqvtJcqxTaTQ" labelPosition="node" color="204,242,166">
-                <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']/@style"/>
-              </ownedStyle>
-              <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']"/>
-            </ownedDiagramElements>
-          </ownedDiagramElements>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_iJkqsffsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:DeploymentHost" href="example.deployment#//@hosts.2"/>
-          <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#//@hosts.2"/>
-          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_iJkqsvfsEeWqvtJcqxTaTQ" borderSize="1" borderSizeComputationExpression="1">
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJqxUPfsEeWqvtJcqxTaTQ" sourceNode="_iJnG8PfsEeWqvtJcqxTaTQ" targetNode="_iJnG8vfsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.0"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.0"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJqxUffsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJqxUvfsEeWqvtJcqxTaTQ" sourceNode="_iJnG8vfsEeWqvtJcqxTaTQ" targetNode="_iJnG8PfsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.1"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.1"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJqxU_fsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJqxVPfsEeWqvtJcqxTaTQ" sourceNode="_iJnuAPfsEeWqvtJcqxTaTQ" targetNode="_iJnuAvfsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.0"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.0"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJqxVffsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJrYYPfsEeWqvtJcqxTaTQ" sourceNode="_iJnuAvfsEeWqvtJcqxTaTQ" targetNode="_iJnuAPfsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.1"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.1"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJrYYffsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJrYYvfsEeWqvtJcqxTaTQ" sourceNode="_iJoVEffsEeWqvtJcqxTaTQ" targetNode="_iJo8IffsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.0"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.0"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJrYY_fsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJrYZPfsEeWqvtJcqxTaTQ" sourceNode="_iJo8IffsEeWqvtJcqxTaTQ" targetNode="_iJoVEffsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.1"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.1"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJrYZffsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJr_cPfsEeWqvtJcqxTaTQ" sourceNode="_iJpjMffsEeWqvtJcqxTaTQ" targetNode="_iJpjM_fsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.0"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.0"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJr_cffsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_iJr_cvfsEeWqvtJcqxTaTQ" sourceNode="_iJpjM_fsEeWqvtJcqxTaTQ" targetNode="_iJpjMffsEeWqvtJcqxTaTQ">
-          <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.1"/>
-          <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.1"/>
-          <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_iJr_c_fsEeWqvtJcqxTaTQ" size="2" routingStyle="manhattan">
-            <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@edgeMappings[name='deployment-transition']"/>
-        </ownedDiagramElements>
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']"/>
-        <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_dpA2BuXXEeWLQcv6zST9hg"/>
-        <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer"/>
-        <target xmi:type="deployment:Deployment" href="example.deployment#/"/>
-      </ownedRepresentations>
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']"/>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_An5gsNyWEeW05uMTllWMkw">
@@ -2244,5 +1767,685 @@
       <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_BfXN4QyeEea1pKEYWpsFig"/>
     </ownedStyle>
     <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications']"/>
+  </diagram:DEdge>
+  <diagram:DNodeContainer xmi:id="_efe1ABBKEeaJKO2mAUZvqg" name="Alarm" incomingEdges="_egNNwBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_-RlfQBBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_ef7g8BBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_ef2BYBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_efomABBKEeaJKO2mAUZvqg" name="A Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_6efoIBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_efp0IBBKEeaJKO2mAUZvqg" name="SD Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_x7wyEBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_efrCQBBKEeaJKO2mAUZvqg" name="152.66.102.6" outgoingEdges="_egI8UBBKEeaJKO2mAUZvqg _egNNwBBKEeaJKO2mAUZvqg _egOb4BBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_4iSaIBBLEeaJKO2mAUZvqg" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_ef-kQBBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_ef654BBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_efs3cBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_efrpUBBKEeaJKO2mAUZvqg" name="C Sent" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_9wN3kBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_efs3cBBKEeaJKO2mAUZvqg" name="Alarm">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_-RmGUBBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_efomABBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_egDcwBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_efuFkBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#//@hosts.2"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#//@hosts.2"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_91yUEBBLEeaJKO2mAUZvqg" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_efusoBBKEeaJKO2mAUZvqg" name="IBM System Storage">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_-Rq-0BBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_efv6wBBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_efxI4BBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_efv6wBBKEeaJKO2mAUZvqg" name="ISS Wait" outgoingEdges="_egFR8BBKEeaJKO2mAUZvqg" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_1SyYQBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_efxI4BBKEeaJKO2mAUZvqg" name="ISS Received" outgoingEdges="_egHuMBBKEeaJKO2mAUZvqg _egKxgBBKEeaJKO2mAUZvqg" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_8_PtoBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_efxv8BBKEeaJKO2mAUZvqg" name="C Sent" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_8AwFEBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_efzlIBBKEeaJKO2mAUZvqg" name="1.2.3.44">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#1.2.3.44"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#1.2.3.44"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_42l2MBBLEeaJKO2mAUZvqg" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_ef0MMBBKEeaJKO2mAUZvqg" name="C Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_8l6AkBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_ef0zQBBKEeaJKO2mAUZvqg" name="152.66.102.5" outgoingEdges="_egL_oBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_8fzYkBBLEeaJKO2mAUZvqg" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_efusoBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_ef2BYBBKEeaJKO2mAUZvqg" name="A Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-RkRIBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_ef2ocBBKEeaJKO2mAUZvqg" name="Camera" incomingEdges="_egI8UBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_-RQIEBBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_efxv8BBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_ef0MMBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_ef32kBBKEeaJKO2mAUZvqg" name="SD Init" outgoingEdges="_egIVQBBKEeaJKO2mAUZvqg" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-RcVUBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_ef4doBBKEeaJKO2mAUZvqg" name="ISS Received" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-RsM8BBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_ef5rwBBKEeaJKO2mAUZvqg" name="IBM System Storage" incomingEdges="_egL_oBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_76HRkBBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_egCOoBBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_ef4doBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_ef654BBKEeaJKO2mAUZvqg" name="Smoke Detector">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_6NU_oBBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_ef_LUBBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_ef32kBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_ef7g8BBKEeaJKO2mAUZvqg" name="A Sent" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-RdjcBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_ef9WIBBKEeaJKO2mAUZvqg" name="C Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-RjDABBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_ef-kQBBKEeaJKO2mAUZvqg" name="Camera">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_58AmIBBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_efrpUBBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_ef9WIBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_ef_LUBBKEeaJKO2mAUZvqg" name="SD Sent" outgoingEdges="_egGgEBBKEeaJKO2mAUZvqg _egKKcBBKEeaJKO2mAUZvqg _egF5ABBKEeaJKO2mAUZvqg" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_9ollkBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_egAZcBBKEeaJKO2mAUZvqg" name="SD Sent" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_7S9K8BBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_egBnkBBKEeaJKO2mAUZvqg" name="Smoke Detector" incomingEdges="_egOb4BBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_5i6JoBBLEeaJKO2mAUZvqg">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_efp0IBBKEeaJKO2mAUZvqg"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_egAZcBBKEeaJKO2mAUZvqg"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_egCOoBBKEeaJKO2mAUZvqg" name="ISS Wait" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_6U4ZIBBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_egDcwBBKEeaJKO2mAUZvqg" name="A Sent" outgoingEdges="_egED0BBKEeaJKO2mAUZvqg" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_-RNr0BBLEeaJKO2mAUZvqg" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DEdge xmi:id="_egED0BBKEeaJKO2mAUZvqg" sourceNode="_egDcwBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7WtpkBBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egFR8BBKEeaJKO2mAUZvqg" sourceNode="_efv6wBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-Q90MBBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egF5ABBKEeaJKO2mAUZvqg" sourceNode="_ef_LUBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_61mgkBBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egGgEBBKEeaJKO2mAUZvqg" sourceNode="_ef_LUBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-RBekBBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egHuMBBKEeaJKO2mAUZvqg" sourceNode="_efxI4BBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-RL2oBBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egIVQBBKEeaJKO2mAUZvqg" sourceNode="_ef32kBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-Rh04BBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egI8UBBKEeaJKO2mAUZvqg" sourceNode="_efrCQBBKEeaJKO2mAUZvqg" targetNode="_ef2ocBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_4d8FoBBLEeaJKO2mAUZvqg" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_4d8FoRBLEeaJKO2mAUZvqg"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egKKcBBKEeaJKO2mAUZvqg" sourceNode="_ef_LUBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-RqXwBBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egKxgBBKEeaJKO2mAUZvqg" sourceNode="_efxI4BBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_-Rib8BBLEeaJKO2mAUZvqg" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egL_oBBKEeaJKO2mAUZvqg" sourceNode="_ef0zQBBKEeaJKO2mAUZvqg" targetNode="_ef5rwBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_7KDGkBBLEeaJKO2mAUZvqg" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_7KDGkRBLEeaJKO2mAUZvqg"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egNNwBBKEeaJKO2mAUZvqg" sourceNode="_efrCQBBKEeaJKO2mAUZvqg" targetNode="_efe1ABBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_54L2EBBLEeaJKO2mAUZvqg" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_54L2ERBLEeaJKO2mAUZvqg"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_egOb4BBKEeaJKO2mAUZvqg" sourceNode="_efrCQBBKEeaJKO2mAUZvqg" targetNode="_egBnkBBKEeaJKO2mAUZvqg">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_3ZPucBBLEeaJKO2mAUZvqg" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_3ZPucRBLEeaJKO2mAUZvqg"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
+  </diagram:DEdge>
+  <diagram:DNodeContainer xmi:id="_qTpcQBBuEeaA3pNIR1rSEw" name="Camera" incomingEdges="_qUTjkBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVhrkBBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUGIMBBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qT4FwBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_qTymMBBuEeaA3pNIR1rSEw" name="IBM System Storage">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVfPUBBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUCd0BBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qULAsBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_qTz0UBBuEeaA3pNIR1rSEw" name="IBM System Storage" incomingEdges="_qUSVcBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.1/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVBVQBBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qT6iABBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qT2QkBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_qT0bYBBuEeaA3pNIR1rSEw" name="Camera">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.2"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVaW0BBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUJLgBBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qT3esBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_qT2QkBBuEeaA3pNIR1rSEw" name="ISS Wait" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVDxgBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qT3esBBuEeaA3pNIR1rSEw" name="C Sent" outgoingEdges="_qUPSIBBuEeaA3pNIR1rSEw" incomingEdges="_qUP5MBBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVWFYBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qT4FwBBuEeaA3pNIR1rSEw" name="C Sent" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVZIsBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_qT5T4BBuEeaA3pNIR1rSEw" name="152.66.102.6" outgoingEdges="_qULnwBBuEeaA3pNIR1rSEw _qURHUBBuEeaA3pNIR1rSEw _qUTjkBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qU-R8BBuEeaA3pNIR1rSEw" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_qT8XMBBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_qT-MYBBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_qT0bYBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_qT568BBuEeaA3pNIR1rSEw" name="1.2.3.44">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#1.2.3.44"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#1.2.3.44"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVXTgBBuEeaA3pNIR1rSEw" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_qT6iABBuEeaA3pNIR1rSEw" name="ISS Received" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qUlQYBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_qT8XMBBuEeaA3pNIR1rSEw" name="Alarm">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qU9D0BBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUDE4BBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUETABBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_qT9lUBBuEeaA3pNIR1rSEw" name="152.66.102.5" outgoingEdges="_qUSVcBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVP-wBBuEeaA3pNIR1rSEw" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" href="#_qTymMBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_qT-MYBBuEeaA3pNIR1rSEw" name="Smoke Detector">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVOJkBBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUHWUBBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUB2wBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNodeContainer xmi:id="_qT_agBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#//@hosts.2"/>
+    <semanticElements xmi:type="deployment:DeploymentHost" href="example.deployment#//@hosts.2"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qU-5ABBuEeaA3pNIR1rSEw" borderSize="1" borderSizeComputationExpression="1">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_qUABkBBuEeaA3pNIR1rSEw" name="A Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVTpIBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUAooBBuEeaA3pNIR1rSEw" name="A Sent" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVSbABBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUB2wBBuEeaA3pNIR1rSEw" name="SD Init" outgoingEdges="_qUQgQBBuEeaA3pNIR1rSEw" incomingEdges="_qUS8gBBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVU3QBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUCd0BBuEeaA3pNIR1rSEw" name="ISS Received" outgoingEdges="_qUP5MRBuEeaA3pNIR1rSEw" incomingEdges="_qUNc8BBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVM7cBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUDE4BBuEeaA3pNIR1rSEw" name="A Init" outgoingEdges="_qUOrEBBuEeaA3pNIR1rSEw" incomingEdges="_qUM14BBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qUz54BBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUETABBuEeaA3pNIR1rSEw" name="A Sent" outgoingEdges="_qUM14BBuEeaA3pNIR1rSEw" incomingEdges="_qUOrEBBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.1/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qU2WIBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_qUFhIBBuEeaA3pNIR1rSEw" name="Smoke Detector" incomingEdges="_qULnwBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.0"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qUyEsBBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUIkcBBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUGvQBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_qUGIMBBuEeaA3pNIR1rSEw" name="C Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qUwPgBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUGvQBBuEeaA3pNIR1rSEw" name="SD Sent" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVRz8BBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUHWUBBuEeaA3pNIR1rSEw" name="SD Sent" outgoingEdges="_qUS8gBBuEeaA3pNIR1rSEw" incomingEdges="_qUQgQBBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.1"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVAHIBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUIkcBBuEeaA3pNIR1rSEw" name="SD Init" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVLtUBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@subNodeMappings[name='deployment-host-applcation-state_2_2']"/>
+  </diagram:DNode>
+  <diagram:DNode xmi:id="_qUJLgBBuEeaA3pNIR1rSEw" name="C Init" outgoingEdges="_qUP5MBBuEeaA3pNIR1rSEw" incomingEdges="_qUPSIBBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.0/@applications.2/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVHb4BBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DNodeContainer xmi:id="_qUKZoBBuEeaA3pNIR1rSEw" name="Alarm" incomingEdges="_qURHUBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <semanticElements xmi:type="deployment:DeploymentApplication" href="example.deployment#//@hosts.0/@applications.1"/>
+    <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_qVi5sBBuEeaA3pNIR1rSEw">
+      <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host-application_2_2']"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUAooBBuEeaA3pNIR1rSEw"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" href="#_qUABkBBuEeaA3pNIR1rSEw"/>
+  </diagram:DNodeContainer>
+  <diagram:DNode xmi:id="_qULAsBBuEeaA3pNIR1rSEw" name="ISS Wait" outgoingEdges="_qUNc8BBuEeaA3pNIR1rSEw" incomingEdges="_qUP5MRBuEeaA3pNIR1rSEw" width="3" height="3" resizeKind="NSEW">
+    <target xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <semanticElements xmi:type="deployment:BehaviorState" href="example.deployment#//@hosts.1/@applications.0/@behavior/@states.0"/>
+    <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_qVdaIBBuEeaA3pNIR1rSEw" labelPosition="node" color="204,242,166">
+      <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@containerMappings[name='deployment-host_2']/@subContainerMappings[name='deployment-host-application_2_1']/@subNodeMappings[name='deployment-host-applcation-state_2_1']"/>
+  </diagram:DNode>
+  <diagram:DEdge xmi:id="_qULnwBBuEeaA3pNIR1rSEw" sourceNode="_qT5T4BBuEeaA3pNIR1rSEw" targetNode="_qUFhIBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVcMABBuEeaA3pNIR1rSEw" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_qVcMARBuEeaA3pNIR1rSEw"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUM14BBuEeaA3pNIR1rSEw" sourceNode="_qUETABBuEeaA3pNIR1rSEw" targetNode="_qUDE4BBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVJREBBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUNc8BBuEeaA3pNIR1rSEw" sourceNode="_qULAsBBuEeaA3pNIR1rSEw" targetNode="_qUCd0BBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVWscBBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUOrEBBuEeaA3pNIR1rSEw" sourceNode="_qUDE4BBuEeaA3pNIR1rSEw" targetNode="_qUETABBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.1/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVFmsBBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUPSIBBuEeaA3pNIR1rSEw" sourceNode="_qT3esBBuEeaA3pNIR1rSEw" targetNode="_qUJLgBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVPXsBBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUP5MBBuEeaA3pNIR1rSEw" sourceNode="_qUJLgBBuEeaA3pNIR1rSEw" targetNode="_qT3esBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.2/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVLGQBBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUP5MRBuEeaA3pNIR1rSEw" sourceNode="_qUCd0BBuEeaA3pNIR1rSEw" targetNode="_qULAsBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.1/@applications.0/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVbk8BBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUQgQBBuEeaA3pNIR1rSEw" sourceNode="_qUB2wBBuEeaA3pNIR1rSEw" targetNode="_qUHWUBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.0"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.0"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qU7OoBBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qURHUBBuEeaA3pNIR1rSEw" sourceNode="_qT5T4BBuEeaA3pNIR1rSEw" targetNode="_qUKZoBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVjgwBBuEeaA3pNIR1rSEw" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_qVnyMBBuEeaA3pNIR1rSEw"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUSVcBBuEeaA3pNIR1rSEw" sourceNode="_qT9lUBBuEeaA3pNIR1rSEw" targetNode="_qTz0UBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.5"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVB8UBBuEeaA3pNIR1rSEw" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_qVB8URBuEeaA3pNIR1rSEw"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUS8gBBuEeaA3pNIR1rSEw" sourceNode="_qUHWUBBuEeaA3pNIR1rSEw" targetNode="_qUB2wBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.1"/>
+    <semanticElements xmi:type="deployment:BehaviorTransition" href="example.deployment#//@hosts.0/@applications.0/@behavior/@transitions.1"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVf2YBBuEeaA3pNIR1rSEw" size="2" routingStyle="manhattan">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']/@style"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='deployment-transition_2']"/>
+  </diagram:DEdge>
+  <diagram:DEdge xmi:id="_qUTjkBBuEeaA3pNIR1rSEw" sourceNode="_qT5T4BBuEeaA3pNIR1rSEw" targetNode="_qTpcQBBuEeaA3pNIR1rSEw">
+    <target xmi:type="deployment:DeploymentHost" href="example.deployment#152.66.102.6"/>
+    <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_qVhEgBBuEeaA3pNIR1rSEw" size="2">
+      <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']/@style"/>
+      <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_qVhEgRBuEeaA3pNIR1rSEw"/>
+    </ownedStyle>
+    <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.incquery.examples.cps.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='dd_deployment-diagram_vql2']/@defaultLayer/@edgeMappings[name='rbe_host_applications_2']"/>
   </diagram:DEdge>
 </xmi:XMI>

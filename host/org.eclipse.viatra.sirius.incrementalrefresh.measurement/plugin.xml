@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.sirius.refreshExtensionProvider">
+      <refreshExtensionProvider
+            providerClass="org.eclipse.viatra.sirius.incrementalrefresh.measurement.RefreshExtensionProvider">
+      </refreshExtensionProvider>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasurementCategory"
+            name="Measurement">
+      </category>
+      <command
+            categoryId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasurementCategory"
+            id="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureCommand"
+            name="Measure">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="org.eclipse.viatra.sirius.incrementalrefresh.measurement.handlers.CommandHandler"
+            commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureCommand"
+               label="Measurement">
+            <command
+                  commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureCommand"
+                  label="Measure"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+
+</plugin>
