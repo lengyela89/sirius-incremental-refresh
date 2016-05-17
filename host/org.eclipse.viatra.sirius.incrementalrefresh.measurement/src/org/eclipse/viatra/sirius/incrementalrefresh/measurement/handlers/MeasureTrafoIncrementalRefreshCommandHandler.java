@@ -9,26 +9,28 @@ import org.eclipse.viatra.sirius.incrementalrefresh.measurement.helpers.Measurem
 
 import com.google.common.collect.Lists;
 
-public class MeasureStandardCommandHandler extends AbstractHandler {
+public class MeasureTrafoIncrementalRefreshCommandHandler extends AbstractHandler {
 
 	private static final String SESSION_RESOURCE = "/hu.bme.mit.inf.concerto.telecare.example.tdk.sample/representations.aird";
-	private static final String VIEWPOINT_NAME = "vp_concerto_telecare_tdk";
-	private static final String REPRESENTATION_DESCRIPTION_NAME = "dd_concerto_telecare_tdk_aql_sr";
+	private static final String VIEWPOINT_NAME = "vp_telecare_tdk_view";
+	private static final String REPRESENTATION_DESCRIPTION_NAME = "dd_tdk_view_ir";
 	
 	private List<String> models = Lists.<String>newArrayList(
-//			"tc_1.telecare",
-//			"tc_10.telecare",
-//			"tc_25.telecare",
-//			"tc_50.telecare",
-//			"tc_75.telecare",
-//			"tc_100.telecare",
-//			"tc_150.telecare",
-//			"tc_200.telecare"
+			"tc_1.telecare",
 			
-			"tc_300.telecare",
-			"tc_400.telecare",
-			"tc_500.telecare",
-			"tc_750.telecare"
+			"tc_1.telecare",
+			"tc_10.telecare",
+			"tc_25.telecare",
+			"tc_50.telecare",
+			"tc_75.telecare",
+			"tc_100.telecare",
+			"tc_150.telecare",
+			"tc_200.telecare"
+			
+//			"tc_300.telecare",
+//			"tc_400.telecare",
+//			"tc_500.telecare",
+//			"tc_750.telecare"
 			
 //			"tc_1000.telecare"
 			
@@ -44,7 +46,13 @@ public class MeasureStandardCommandHandler extends AbstractHandler {
 	
 	@Override
 	public Object execute(ExecutionEvent event) throws ExecutionException {
-
+		new MeasurementHelper().measure(SESSION_RESOURCE, VIEWPOINT_NAME, REPRESENTATION_DESCRIPTION_NAME, models.get(0));
+		System.gc();
+		System.gc();
+		
+		models.remove(0);
+		
+		System.out.println("Measurement:");
 		for (String model : models) {
 			new MeasurementHelper().measure(SESSION_RESOURCE, VIEWPOINT_NAME, REPRESENTATION_DESCRIPTION_NAME, model);
 			System.gc();

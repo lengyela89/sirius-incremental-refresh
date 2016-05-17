@@ -14,7 +14,9 @@ public class MeasurementData {
 	private Long vmmInit;
 	private Long vmmFirstExec;
 	private Long canonicalSync;
-	
+	private Long transformationViewModelSize;
+	private Long transformationOpening;
+	private Long transformationModification;
 	
 	public MeasurementData(String title, String model, String comment) {
 		this.title = title;
@@ -22,6 +24,9 @@ public class MeasurementData {
 		this.comment = comment;
 	}
 
+	public Integer getGroupId() {
+		return (model + "" + comment).hashCode();
+	}
 
 	public String getTitle() {
 		return title;
@@ -157,6 +162,36 @@ public class MeasurementData {
 		this.incrementalRefreshInit = incrementalRefreshInit;
 	}
 
+	
+
+	public Long getTransformationViewModelSize() {
+		return transformationViewModelSize;
+	}
+
+
+	public void setTransformationViewModelSize(Long transformationViewModelSize) {
+		this.transformationViewModelSize = transformationViewModelSize;
+	}
+
+
+	public Long getTransformationOpening() {
+		return transformationOpening;
+	}
+
+
+	public void setTransformationOpening(Long transformationOpening) {
+		this.transformationOpening = transformationOpening;
+	}
+
+
+	public Long getTransformationModification() {
+		return transformationModification;
+	}
+
+
+	public void setTransformationModification(Long transformationModification) {
+		this.transformationModification = transformationModification;
+	}
 
 	@Override
 	public String toString() {
@@ -164,13 +199,16 @@ public class MeasurementData {
 		sb.append(model).append(";")
 		.append(sourceModelSize).append(";")
 		.append(siriusNotationModelSize).append(";")
+		.append(transformationViewModelSize).append(";")
 //		.append(gmfNotationModelSize).append(";")
 //		.append(traceabilityModelSize).append(";")
+		.append(transformationOpening).append(";")
+		.append(transformationModification).append(";")
 		.append(refreshOperation).append(";")
 		.append(incrementalRefreshInit).append(";")
 		.append(vmmInit).append(";")
 		.append(vmmFirstExec).append(";")
-//		.append(canonicalSync).append(";")
+		.append(canonicalSync).append(";")
 		.append(comment);
 		
 		return sb.toString();

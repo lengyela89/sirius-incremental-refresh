@@ -16,19 +16,22 @@ public class MeasureIncrementalCommandHandler extends AbstractHandler {
 	private static final String REPRESENTATION_DESCRIPTION_NAME = "dd_concerto_telecare_tdk_vql_ir";
 	
 	private List<String> models = Lists.<String>newArrayList(
-			"tc_1.telecare"
+//			"tc_1.telecare",
 //			"tc_10.telecare",
 //			"tc_25.telecare",
 //			"tc_50.telecare",
 //			"tc_75.telecare",
 //			"tc_100.telecare",
 //			"tc_150.telecare",
-//			"tc_200.telecare",
-//			"tc_300.telecare",
-//			"tc_400.telecare",
-//			"tc_500.telecare",
-//			"tc_750.telecare",
-//			"tc_1000.telecare",
+//			"tc_200.telecare"
+			
+			"tc_300.telecare",
+			"tc_400.telecare",
+			"tc_500.telecare",
+			"tc_750.telecare"
+			
+//			"tc_1000.telecare"
+			
 //			"tc_1500.telecare",
 //			"tc_2000.telecare",
 //			"tc_3000.telecare",

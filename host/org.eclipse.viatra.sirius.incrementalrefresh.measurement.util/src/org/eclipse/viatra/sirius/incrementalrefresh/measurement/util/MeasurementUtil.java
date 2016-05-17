@@ -2,6 +2,7 @@ package org.eclipse.viatra.sirius.incrementalrefresh.measurement.util;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.eclipse.emf.common.util.TreeIterator;
 import org.eclipse.emf.ecore.EObject;
@@ -32,6 +33,12 @@ public class MeasurementUtil {
 	public static final int MEASUREMENT_VMM_FIRST_EXEC = 8;
 	
 	public static final int MEASUREMENT_CANONICAL_SYNC = 9;
+	
+	public static final int MEASUREMENT_TRANSFORMATION_OPENING = 13;
+	
+	public static final int MEASUREMENT_TRANSFORMATION_MODIFICATION = 14;
+	
+	public static final int MEASUREMENT_TRANSFORMATION_VIEW_MODEL_SIZE = 15;
 
 	private static MeasurementUtil instance = null;
 
@@ -101,11 +108,19 @@ public class MeasurementUtil {
 		case MEASUREMENT_CANONICAL_SYNC:
 			currentMeasurement.setCanonicalSync(execTime);
 			break;
+		
+		case MEASUREMENT_TRANSFORMATION_OPENING:
+			currentMeasurement.setTransformationOpening(execTime);
+			break;
+			
+		case MEASUREMENT_TRANSFORMATION_MODIFICATION:
+			currentMeasurement.setTransformationModification(execTime);
+			break;
 		}
 	}
 	
 	public void measureModelSize(int key, EObject root) {
-		long modelSize = 0L;
+		long modelSize = 1L;
 		TreeIterator<EObject> iterator = root.eAllContents();
 		while (iterator.hasNext()) {
 			modelSize++;
@@ -115,6 +130,10 @@ public class MeasurementUtil {
 		switch (key) {
 		case MEASUREMENT_SOURCE_MODEL_SIZE:
 			currentMeasurement.setSourceModelSize(modelSize);
+			break;
+		
+		case MEASUREMENT_TRANSFORMATION_VIEW_MODEL_SIZE:
+			currentMeasurement.setTransformationViewModelSize(modelSize);
 			break;
 			
 		case MEASUREMENT_SIRIUS_NOTATION_MODEL_SIZE:
@@ -132,8 +151,20 @@ public class MeasurementUtil {
 	}
 	
 	public void printMeasurementResults() {
+		Map<Integer, List<MeasurementData>> averageList = Maps.newHashMap();
+		
 		for (MeasurementData md : measurements) {
-			System.out.println(md);
+			if (!averageList.containsKey(md.getGroupId())) {
+				averageList.put(md.getGroupId(), Lists.newArrayList());
+			}
+			
+			averageList.get(md.getGroupId()).add(md);
+		}
+		
+		for (Integer key : averageList.keySet()) {
+			for (MeasurementData md : averageList.get(key)) {
+				System.out.println(md);
+			}
 		}
 	}
 	

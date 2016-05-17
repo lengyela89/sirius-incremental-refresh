@@ -23,6 +23,16 @@
             id="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureStandardCommand"
             name="Measure - Standard">
       </command>
+      <command
+            categoryId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasurementCategory"
+            id="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureTrafoIncrementalRefreshCommand"
+            name="Measure - Trafo + IR">
+      </command>
+      <command
+            categoryId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasurementCategory"
+            id="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureTCVStandardRefreshCommand"
+            name="Measure - TCV SR">
+      </command>
    </extension>
    <extension
          point="org.eclipse.ui.handlers">
@@ -33,6 +43,14 @@
       <handler
             class="org.eclipse.viatra.sirius.incrementalrefresh.measurement.handlers.MeasureStandardCommandHandler"
             commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureStandardCommand">
+      </handler>
+      <handler
+            class="org.eclipse.viatra.sirius.incrementalrefresh.measurement.handlers.MeasureTrafoIncrementalRefreshCommandHandler"
+            commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureTrafoIncrementalRefreshCommand">
+      </handler>
+      <handler
+            class="org.eclipse.viatra.sirius.incrementalrefresh.measurement.handlers.MeasureTCVStandardRefreshCommandHandler"
+            commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureTCVStandardRefreshCommand">
       </handler>
    </extension>
    <extension
@@ -51,6 +69,16 @@
             <command
                   commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureStandardCommand"
                   label="Measure - Standard"
+                  style="push">
+            </command>
+            <command
+                  commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureTrafoIncrementalRefreshCommand"
+                  label="Measure -Trafo + IR"
+                  style="push">
+            </command>
+            <command
+                  commandId="org.eclipse.viatra.sirius.incrementalrefresh.measurement.commands.MeasureTCVStandardRefreshCommand"
+                  label="Measure -TCV SR"
                   style="push">
             </command>
          </menu>

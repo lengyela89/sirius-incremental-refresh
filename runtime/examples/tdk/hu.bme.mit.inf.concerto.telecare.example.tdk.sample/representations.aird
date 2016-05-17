@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:telecare="http://hu.bme.mit.inf.concerto/telecare/example/tdk/1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_rH9skBU5EeasGMUvchuJkw" selectedViews="_joIzEBU7Eea4RNlbFvbgGA" version="10.1.0.201509162000">
+  <viewpoint:DAnalysis xmi:id="_rH9skBU5EeasGMUvchuJkw" selectedViews="_joIzEBU7Eea4RNlbFvbgGA _I5sEMBoBEeaWQZcjxo7D3g" version="10.1.0.201509162000">
     <semanticResources>model/tc_1.telecare</semanticResources>
     <semanticResources>model/tc_10.telecare</semanticResources>
     <semanticResources>model/tc_100.telecare</semanticResources>
@@ -21,11 +21,28 @@
     <semanticResources>model/tc_75.telecare</semanticResources>
     <semanticResources>model/tc_750.telecare</semanticResources>
     <semanticResources>model/tc_7500.telecare</semanticResources>
+    <semanticResources>model/out_tc_1.telecare</semanticResources>
+    <semanticResources>model/out_tc_10.telecare</semanticResources>
+    <semanticResources>model/out_tc_100.telecare</semanticResources>
+    <semanticResources>model/out_tc_1000.telecare</semanticResources>
+    <semanticResources>model/out_tc_150.telecare</semanticResources>
+    <semanticResources>model/out_tc_200.telecare</semanticResources>
+    <semanticResources>model/out_tc_25.telecare</semanticResources>
+    <semanticResources>model/out_tc_300.telecare</semanticResources>
+    <semanticResources>model/out_tc_400.telecare</semanticResources>
+    <semanticResources>model/out_tc_50.telecare</semanticResources>
+    <semanticResources>model/out_tc_500.telecare</semanticResources>
+    <semanticResources>model/out_tc_75.telecare</semanticResources>
+    <semanticResources>model/out_tc_750.telecare</semanticResources>
+    <semanticResources>model/sample.telecare</semanticResources>
     <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_xpXHkBU6EeawIJQx6QOcgg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/hu.bme.mit.inf.concerto.telecare.example.tdk.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='vp_concerto_telecare_tdk']"/>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_joIzEBU7Eea4RNlbFvbgGA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/hu.bme.mit.inf.concerto.telecare.example.tdk.viewpoint/description/viewpoint.odesign#//@ownedViewpoints[name='vp_concerto_telecare_tdk']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_I5sEMBoBEeaWQZcjxo7D3g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/hu.bme.mit.concerto.telecare.example.tdk.view.design/description/view.odesign#//@ownedViewpoints[name='vp_telecare_tdk_view']"/>
     </ownedViews>
   </viewpoint:DAnalysis>
   <diagram:DNode xmi:id="_xnyaQBU6EeawIJQx6QOcgg" name="FIT (180 minutes)" width="3" height="3" resizeKind="NSEW">
