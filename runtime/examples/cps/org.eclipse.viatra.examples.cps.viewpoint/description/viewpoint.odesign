@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="viewpoint" version="10.1.3.201511131800">
+  <ownedViewpoints name="deployment" modelFileExtension="deployment">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="deployment-diagram" label="deployment-diagram" initialisation="true" domainClass="deployment.Deployment" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.viatra/model/deployment#/"/>
+      <metamodel href="http://org.eclipse.viatra/model/cps#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="deployment-transition" semanticCandidatesExpression="aql:self.hosts.applications.behavior.transitions" sourceMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']" targetMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram']/@defaultLayer/@containerMappings[name='deployment-host']/@subContainerMappings[name='deployment-host-application']/@subNodeMappings[name='deployment-host-applcation-state']" targetFinderExpression="feature:to" sourceFinderExpression="aql:self.eInverse()" domainClass="deployment.BehaviorTransition" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+        <containerMappings name="deployment-host" label="Host" semanticCandidatesExpression="feature:hosts" domainClass="deployment.DeploymentHost">
+          <subContainerMappings name="deployment-host-application" semanticCandidatesExpression="feature:applications" domainClass="deployment.DeploymentApplication">
+            <subNodeMappings name="deployment-host-applcation-state" semanticCandidatesExpression="aql:self.behavior.states" domainClass="deployment.BehaviorState">
+              <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:ip">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="deployment-diagram_vql_v1" domainClass="deployment.Deployment" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.viatra/model/deployment#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="deployment-transition_vql_v1" semanticCandidatesExpression="vql: @Return(parameter=&quot;bt&quot;) @Context(parameter=&quot;d&quot;) pattern pattern_transition(bt, d) {Deployment.hosts.applications.behavior.transitions(d, bt);}" sourceMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram_vql_v1']/@defaultLayer/@containerMappings[name='deployment-host_vql_v1']/@subContainerMappings[name='deployment-host-application_vql_v1']/@subNodeMappings[name='deployment-host-applcation-state_vql_v1']" targetMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram_vql_v1']/@defaultLayer/@containerMappings[name='deployment-host_vql_v1']/@subContainerMappings[name='deployment-host-application_vql_v1']/@subNodeMappings[name='deployment-host-applcation-state_vql_v1']" targetFinderExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;bt&quot;) pattern pattern_transition(bs, bt) {    BehaviorTransition.to(bt, bs);}" sourceFinderExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;bt&quot;) pattern pattern_transition(bs, bt) {    BehaviorState.outgoing(bs, bt);}" domainClass="deployment.BehaviorTransition" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+        <containerMappings name="deployment-host_vql_v1" semanticCandidatesExpression="vql: @Return(parameter=&quot;host&quot;) @Context(parameter=&quot;owner&quot;) pattern host(host : DeploymentHost, owner : Deployment) {Deployment.hosts(owner, host);}" domainClass="deployment.DeploymentHost">
+          <subContainerMappings name="deployment-host-application_vql_v1" semanticCandidatesExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : DeploymentHost) {DeploymentHost.applications(owner, da);}" domainClass="deployment.DeploymentApplication">
+            <subNodeMappings name="deployment-host-applcation-state_vql_v1" semanticCandidatesExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;owner&quot;) pattern behaviorState(bs : BehaviorState, owner : DeploymentApplication) {DeploymentApplication.behavior.states(owner, bs);}" domainClass="deployment.BehaviorState">
+              <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:ip">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="deployment-diagram_vql_v2" domainClass="deployment.Deployment" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.viatra/model/deployment#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="rbe_host_applications_vql_v2" sourceMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram_vql_v2']/@defaultLayer/@containerMappings[name='deployment-host_vql_v2']" targetMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram_vql_v2']/@defaultLayer/@containerMappings[name='deployment-host-application_vql_v2']" targetFinderExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : DeploymentHost) {DeploymentHost.applications(owner, da);}">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="deployment-transition_vql_v2" semanticCandidatesExpression="vql: @Return(parameter=&quot;bt&quot;) @Context(parameter=&quot;d&quot;) pattern pattern_transition(bt, d) {Deployment.hosts.applications.behavior.transitions(d, bt);}" sourceMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram_vql_v2']/@defaultLayer/@containerMappings[name='deployment-host-application_vql_v2']/@subNodeMappings[name='deployment-host-applcation-state_vql_v2']" targetMapping="//@ownedViewpoints[name='deployment']/@ownedRepresentations[name='deployment-diagram_vql_v2']/@defaultLayer/@containerMappings[name='deployment-host-application_vql_v2']/@subNodeMappings[name='deployment-host-applcation-state_vql_v2']" targetFinderExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;bt&quot;) pattern pattern_transition(bs, bt) {    BehaviorTransition.to(bt, bs);}" sourceFinderExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;bt&quot;) pattern pattern_transition(bs, bt) {    BehaviorState.outgoing(bs, bt);}" domainClass="deployment.BehaviorTransition" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+        <containerMappings name="deployment-host_vql_v2" semanticCandidatesExpression="vql: @Return(parameter=&quot;host&quot;) @Context(parameter=&quot;owner&quot;) pattern host(host : DeploymentHost, owner : Deployment) {Deployment.hosts(owner, host);}" domainClass="deployment.DeploymentHost">
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:ip">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="deployment-host-application_vql_v2" semanticCandidatesExpression="vql: @Return(parameter=&quot;da&quot;) @Context(parameter=&quot;owner&quot;) pattern deploymentApplication(da : DeploymentApplication, owner : Deployment) {Deployment.hosts.applications(owner, da);}" domainClass="deployment.DeploymentApplication">
+          <subNodeMappings name="deployment-host-applcation-state_vql_v2" semanticCandidatesExpression="vql: @Return(parameter=&quot;bs&quot;) @Context(parameter=&quot;owner&quot;) pattern behaviorState(bs : BehaviorState, owner : DeploymentApplication) {DeploymentApplication.behavior.states(owner, bs);}" domainClass="deployment.BehaviorState">
+            <style xsi:type="style:EllipseNodeDescription" labelExpression="feature:description" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" labelExpression="feature:id">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="cps-satisfaction-analysis" modelFileExtension="cyberphysicalsystem">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="cps-graph-stats" domainClass="cyberPhysicalSystem.CyberPhysicalSystem" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.viatra/model/cps#/"/>
+      <metamodel href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="apptype" semanticCandidatesExpression="feature:appTypes" domainClass="cyberPhysicalSystem.ApplicationType">
+          <style xsi:type="style:GaugeCompositeStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:identifier" sizeComputationExpression="10" resizeKind="NSEW" alignment="HORIZONTAL">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <sections maxValueExpression="aql:self.behavior.states->size()" valueExpression="[self.behavior.states->size() - (self.behavior.initial->closure(v: State | v.outgoingTransitions.targetState)->size())/]" label="Unreachable states">
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </sections>
+            <sections maxValueExpression="[self.instances->size()/]" valueExpression="[self.instances->select(a | a.allocatedTo = null)->size()/]" label="Unallocated instances">
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </sections>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="hosttype" semanticCandidatesExpression="feature:hostTypes" domainClass="cyberPhysicalSystem.HostType">
+          <borderedNodeMappings name="num-of-allocated-instances" semanticCandidatesExpression="[self/]" domainClass="cyberPhysicalSystem.HostType">
+            <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="[self.instances->collect(a|a.applications->size())->max()->toString()/]" labelPosition="node" resizeKind="NSEW" width="6" height="3">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:SquareDescription" labelExpression="feature:identifier" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="hasAllocationOn" sourceMapping="//@ownedViewpoints[name='cps-satisfaction-analysis']/@ownedRepresentations[name='cps-graph-stats']/@defaultLayer/@nodeMappings[name='apptype']" targetMapping="//@ownedViewpoints[name='cps-satisfaction-analysis']/@ownedRepresentations[name='cps-graph-stats']/@defaultLayer/@nodeMappings[name='hosttype']" targetFinderExpression="aql:self.instances.allocatedTo->collect(a|a.eContainer())->asSet()">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="cps-graph-stats_vql" domainClass="cyberPhysicalSystem.CyberPhysicalSystem" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.viatra/model/cps#/"/>
+      <metamodel href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="apptype_vql" semanticCandidatesExpression="vql: @Return(parameter=&quot;at&quot;)@Context(parameter=&quot;cps&quot;)pattern element_applicationType(at, cps) {    CyberPhysicalSystem.appTypes(cps, at);}" domainClass="cyberPhysicalSystem.ApplicationType">
+          <style xsi:type="style:GaugeCompositeStyleDescription" borderSizeComputationExpression="1" labelExpression="feature:identifier" sizeComputationExpression="10" resizeKind="NSEW" alignment="HORIZONTAL">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <sections maxValueExpression="aql:self.behavior.states->size()" valueExpression="[self.behavior.states->size() - (self.behavior.initial->closure(v: State | v.outgoingTransitions.targetState)->size())/]" label="Unreachable states">
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </sections>
+            <sections maxValueExpression="[self.instances->size()/]" valueExpression="[self.instances->select(a | a.allocatedTo = null)->size()/]" label="Unallocated instances">
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </sections>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="hosttype_vql" semanticCandidatesExpression="vql: @Return(parameter=&quot;ht&quot;)@Context(parameter=&quot;cps&quot;)pattern element_hostType(ht, cps) {    CyberPhysicalSystem.hostTypes(cps, ht);}" domainClass="cyberPhysicalSystem.HostType">
+          <borderedNodeMappings name="num-of-allocated-instances_vql" semanticCandidatesExpression="@Return(parameter=&quot;ht&quot;)@Context(parameter=&quot;ht&quot;)pattern element_hostType(ht) {    HostType(ht);}" domainClass="cyberPhysicalSystem.HostType">
+            <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="[self.instances->collect(a|a.applications->size())->max()->toString()/]" labelPosition="node" resizeKind="NSEW" width="6" height="3">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:SquareDescription" labelExpression="feature:identifier" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="hasAllocationOn_vql" sourceMapping="//@ownedViewpoints[name='cps-satisfaction-analysis']/@ownedRepresentations[name='cps-graph-stats_vql']/@defaultLayer/@nodeMappings[name='apptype_vql']" targetMapping="//@ownedViewpoints[name='cps-satisfaction-analysis']/@ownedRepresentations[name='cps-graph-stats_vql']/@defaultLayer/@nodeMappings[name='hosttype_vql']" targetFinderExpression="vql: @Return(parameter=&quot;ht&quot;)@Context(parameter=&quot;at&quot;)pattern edge_hasAllocationOn(ht, at) {ApplicationType.instances.allocatedTo(at, hi);HostType.instances(ht, hi);}">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+        <toolSections name="section_tools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_apptype" nodeMappings="//@ownedViewpoints[name='cps-satisfaction-analysis']/@ownedRepresentations[name='cps-graph-stats_vql']/@defaultLayer/@nodeMappings[name='apptype_vql']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.cps /]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cyberPhysicalSystem.ApplicationType" referenceName="appTypes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="identifier" valueExpression="newAppType"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_hosttype" nodeMappings="//@ownedViewpoints[name='cps-satisfaction-analysis']/@ownedRepresentations[name='cps-graph-stats_vql']/@defaultLayer/@nodeMappings[name='hosttype_vql']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.cps /]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="cyberPhysicalSystem.HostType" referenceName="hostTypes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="identifier" valueExpression="newHostType"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="cps-triggers" modelFileExtension="cyberphysicalsystem">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="cps-triggers-mtl" domainClass="cyberPhysicalSystem.CyberPhysicalSystem" enablePopupBars="true">
+      <layout xsi:type="description_1:CompositeLayout" padding="10" direction="LeftToRight"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="application" semanticCandidatesExpression="[self.appTypes/]" domainClass="cyberPhysicalSystem.ApplicationType">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:identifier" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+      </defaultLayer>
+      <additionalLayers name="edges-mtl" label="Edges">
+        <edgeMappings name="app-communicating" sourceMapping="//@ownedViewpoints[name='cps-triggers']/@ownedRepresentations[name='cps-triggers-mtl']/@defaultLayer/@nodeMappings[name='application']" targetMapping="//@ownedViewpoints[name='cps-triggers']/@ownedRepresentations[name='cps-triggers-mtl']/@defaultLayer/@nodeMappings[name='application']" targetFinderExpression="[self.cps.appTypes->select(a : ApplicationType |(not self.instances->select(allocatedTo &lt;> null).allocatedTo.communicateWith->asSet ()->intersection(a.instances->select(allocatedTo &lt;> null).allocatedTo->asSet())->isEmpty()) and (self.behavior.states.outgoingTransitions.action->select(v:String|v &lt;> null and v.startsWith('sendSignal'))->size() > 0 ) and (a.behavior.states.outgoingTransitions.action->select(v:String|v &lt;> null and v.startsWith('waitForSignal'))->size() > 0 )  )/]">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </additionalLayers>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="cps-triggers-aql" domainClass="cyberPhysicalSystem.CyberPhysicalSystem" enablePopupBars="true">
+      <layout xsi:type="description_1:CompositeLayout" padding="10" direction="LeftToRight"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="application-aql" semanticCandidatesExpression="aql: self.appTypes " domainClass="cyberPhysicalSystem.ApplicationType">
+          <style xsi:type="style:SquareDescription" labelExpression="feature:identifier" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+      </defaultLayer>
+      <additionalLayers name="edges-aql" label="Edges">
+        <edgeMappings name="app-communicating" sourceMapping="//@ownedViewpoints[name='cps-triggers']/@ownedRepresentations[name='cps-triggers-aql']/@defaultLayer/@nodeMappings[name='application-aql']" targetMapping="//@ownedViewpoints[name='cps-triggers']/@ownedRepresentations[name='cps-triggers-aql']/@defaultLayer/@nodeMappings[name='application-aql']" targetFinderExpression="aql:self.cps.appTypes->select(a : cps::ApplicationType | (self.instances.allocatedTo.communicateWith->intersection(a.instances.allocatedTo)->size() > 0 ) and (self.behavior.states.outgoingTransitions.action->select(ac | ac.startsWith('sendSignal'))->size() > 0 ) and (a.behavior.states.outgoingTransitions.action->select(ac | ac.startsWith('waitForSignal'))->size() > 0 ) )">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </additionalLayers>
+    </ownedRepresentations>
+  </ownedViewpoints>
+  <ownedViewpoints name="cps-demo" modelFileExtension="cyberphysicalsystem">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="cps-diagram-demo" domainClass="cyberPhysicalSystem.CyberPhysicalSystem" enablePopupBars="true">
+      <metamodel href="http://org.eclipse.viatra/model/cps#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="node_hostType_vql" deletionDescription="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@toolSections.0/@ownedTools[name='delete_hostType']" semanticCandidatesExpression="vql:@Return(parameter=&quot;ht&quot;)@Context(parameter=&quot;cps&quot;)pattern element_hostType(ht, cps) {CyberPhysicalSystem.hostTypes(cps, ht);}" domainClass="cyberPhysicalSystem.HostType">
+          <borderedNodeMappings name="bn_hiNumberOfInstances_vql" semanticCandidatesExpression="vql:@Return(parameter=&quot;ht&quot;)@Context(parameter=&quot;ht&quot;)pattern element_hiNumberOfInstances(ht) {HostType(ht);}" domainClass="cyberPhysicalSystem.HostType">
+            <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="[self.instances->size() /]" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="feature:identifier" labelPosition="node" resizeKind="NSEW" width="10" height="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ebe_stateMachine_transition_vql" deletionDescription="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@toolSections.1/@ownedTools[name='delete_transition']" semanticCandidatesExpression="vql:@Return(parameter=&quot;t&quot;)@Context(parameter=&quot;cps&quot;)pattern edge_transition(t, cps) {CyberPhysicalSystem.appTypes.behavior.states.outgoingTransitions(cps, t);}" sourceMapping="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@containerMappings[name='container_applicationType_vql']/@subContainerMappings[name='container_stateMachine_vql']/@subNodeMappings[name='sn_state_vql']" targetMapping="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@containerMappings[name='container_applicationType_vql']/@subContainerMappings[name='container_stateMachine_vql']/@subNodeMappings[name='sn_state_vql']" targetFinderExpression="vql:@Return(parameter=&quot;s&quot;)@Context(parameter=&quot;t&quot;)pattern edge_transition_target(s, t) {Transition.targetState(t, s);}" sourceFinderExpression="vql:@Return(parameter=&quot;s&quot;)@Context(parameter=&quot;t&quot;)pattern edge_transition_source(s, t) {State.outgoingTransitions(s, t);}" domainClass="cyberPhysicalSystem.Transition" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="feature:action">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="rbe_hasAllocationOn_vql" deletionDescription="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@toolSections.0/@ownedTools[name='delete_hasAllocationOn']" sourceMapping="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@containerMappings[name='container_applicationType_vql']" targetMapping="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@nodeMappings[name='node_hostType_vql']" targetFinderExpression="vql: @Return(parameter=&quot;ht&quot;)@Context(parameter=&quot;at&quot;)pattern edge_hasAllocationOn(ht, at) {ApplicationType.instances.allocatedTo(at, hi);HostType.instances(ht, hi);}">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+        <containerMappings name="container_applicationType_vql" deletionDescription="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@toolSections.0/@ownedTools[name='delete_applicationType']" semanticCandidatesExpression="vql:@Return(parameter=&quot;at&quot;)@Context(parameter=&quot;cps&quot;)pattern element_applicationType(at, cps) {CyberPhysicalSystem.appTypes(cps, at);}" domainClass="cyberPhysicalSystem.ApplicationType" childrenPresentation="VerticalStack">
+          <borderedNodeMappings name="bn_aiNumberOfInstances_vql" semanticCandidatesExpression="vql:@Return(parameter=&quot;at&quot;)@Context(parameter=&quot;at&quot;)pattern element_aiNumberOfInstances(at) {ApplicationType(at);}" domainClass="cyberPhysicalSystem.HostType">
+            <style xsi:type="style:SquareDescription" showIcon="false" labelExpression="[self.instances->size() /]" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </borderedNodeMappings>
+          <subContainerMappings name="container_stateMachine_vql" semanticCandidatesExpression="vql:@Return(parameter=&quot;sm&quot;)@Context(parameter=&quot;at&quot;)pattern element_stateMachine(sm, at) {ApplicationType.behavior(at, sm);}" domainClass="cyberPhysicalSystem.StateMachine">
+            <subNodeMappings name="sn_state_vql" deletionDescription="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@toolSections.1/@ownedTools[name='delete_state']" semanticCandidatesExpression="vql:@Return(parameter=&quot;s&quot;)@Context(parameter=&quot;sm&quot;)pattern element_state(s, sm) {StateMachine.states(sm, s);}" domainClass="cyberPhysicalSystem.State">
+              <style xsi:type="style:EllipseNodeDescription" showIcon="false" labelExpression="feature:identifier" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false" labelExpression="StateMachine">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" showIcon="false" labelExpression="feature:identifier">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="sec_CPS" label="CPS">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_hostType" label="Host Type" nodeMappings="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@nodeMappings[name='node_hostType_vql']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: container.createHostType()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="cc_applicationType" label="Application Type" containerMappings="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@containerMappings[name='container_applicationType_vql']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:container.createApplicationType()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ec_hasAllocationOn" label="Allocation on..." edgeMappings="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@edgeMappings[name='rbe_hasAllocationOn_vql']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: source.createHasAllocationOnEdge(target)"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="delete_hostType" label="Host Type">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: element.removeHostType()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="delete_applicationType" label="Application Type">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: element.removeApplicationType()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="delete_hasAllocationOn" label="HasAllocationOn Edge">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: elementView.removeHasAllocationOnEdge()"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="sec_SM" label="StateMachine">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_state" label="State" nodeMappings="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@containerMappings[name='container_applicationType_vql']/@subContainerMappings[name='container_stateMachine_vql']/@subNodeMappings[name='sn_state_vql']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: container.createState()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ec_transition" label="Transition" edgeMappings="//@ownedViewpoints[name='cps-demo']/@ownedRepresentations[name='cps-diagram-demo']/@defaultLayer/@edgeMappings[name='ebe_stateMachine_transition_vql']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: source.createTransition(target)"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="delete_state" label="State">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: element.removeState()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="delete_transition" label="Transition">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: element.removeTransition()"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.eclipse.viatra.examples.cps.viewpoint.services.CPSDemoToolsService"/>
+  </ownedViewpoints>
+</description:Group>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="viewpoint" version="10.1.3.201511131800">
+  <ownedViewpoints name="vp_concerto_telecare_tdk" modelFileExtension="telecare">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="dd_concerto_telecare_tdk_vql_ir" domainClass="telecare.TelecareSystem" enablePopupBars="true">
+      <metamodel href="http://hu.bme.mit.inf.concerto/telecare/example/tdk/1.0#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="node_host_ir" semanticCandidatesExpression="vql:@Return(parameter=&quot;host&quot;) @Context(parameter=&quot;ts&quot;) pattern element_host(host, ts) {TelecareSystem.hosts(ts, host);}" domainClass="telecare.Host">
+          <style xsi:type="style:LozengeNodeDescription" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="rbe_sensor_connectedto_ir" sourceMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_sensor_ir']" targetMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_gateway_ir']" targetFinderExpression="vql:@Return(parameter=&quot;gw&quot;)@Context(parameter=&quot;s&quot;)pattern edge_sensor_connectedTo(gw, s) {Sensor.connectedTo(s, gw);}">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ebe_measurement_ir" semanticCandidatesExpression="vql:@Return(parameter=&quot;m&quot;)@Context(parameter=&quot;ts&quot;)pattern edge_measurement(m, ts) {Measurement(m);TelecareSystem.gateways.triggers.triggeredEvents(ts, m); Measurement.trigger(m, _t); Measurement.measurementType(m, _mt);}" sourceMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_gateway_ir']/@subNodeMappings[name='sn_trigger_ir']" targetMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_sensor_ir']/@subNodeMappings[name='sn_measurementType_ir']" targetFinderExpression="vql:@Return(parameter=&quot;mt&quot;)@Context(parameter=&quot;m&quot;)pattern edge_measurement(mt, m) {Measurement.measurementType(m, mt);}" sourceFinderExpression="vql:@Return(parameter=&quot;t&quot;)@Context(parameter=&quot;m&quot;)pattern edge_measurement(t, m) {Measurement.trigger(m, t);}" domainClass="telecare.Measurement" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ebe_reportingEvent_ir" semanticCandidatesExpression="vql:@Return(parameter=&quot;re&quot;)@Context(parameter=&quot;ts&quot;)pattern edge_reportingEvent(re, ts) {ReportingEvent(re);TelecareSystem.gateways.triggers.triggeredEvents(ts, re);ReportingEvent.trigger(re, _t);ReportingEvent.address(re, _h);}" sourceMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_gateway_ir']/@subNodeMappings[name='sn_trigger_ir']" targetMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@nodeMappings[name='node_host_ir']" targetFinderExpression="vql:@Return(parameter=&quot;h&quot;)@Context(parameter=&quot;re&quot;)pattern edge_reportingEvent(h, re) {ReportingEvent.address(re, h);}" sourceFinderExpression="vql:@Return(parameter=&quot;t&quot;)@Context(parameter=&quot;re&quot;)pattern edge_reportingEvent(t, re) {ReportingEvent.trigger(re, t);}" domainClass="telecare.ReportingEvent" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="cn_sensor_ir" semanticCandidatesExpression="vql:@Return(parameter=&quot;sensor&quot;) @Context(parameter=&quot;ts&quot;) pattern element_sensor(sensor, ts) {TelecareSystem.sensors(ts, sensor);}" domainClass="telecare.Sensor">
+          <subNodeMappings name="sn_measurementType_ir" semanticCandidatesExpression="vql:@Return(parameter=&quot;mt&quot;)@Context(parameter=&quot;s&quot;)pattern element_measurementType(mt, s) {Sensor.measurementTypes(s, mt);}" domainClass="telecare.MeasurementType">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="cn_gateway_ir" semanticCandidatesExpression="vql:@Return(parameter=&quot;gw&quot;) @Context(parameter=&quot;ts&quot;) pattern element_gateway(gw, ts) {TelecareSystem.gateways(ts, gw);}" domainClass="telecare.Gateway">
+          <subNodeMappings name="sn_trigger_ir" semanticCandidatesExpression="vql:@Return(parameter=&quot;t&quot;)@Context(parameter=&quot;gw&quot;)pattern element_ectrigger(t, gw) {Gateway.triggers(gw, t);}" domainClass="telecare.Trigger">
+            <style xsi:type="style:EllipseNodeDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="section_tools_elements">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_host" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@nodeMappings[name='node_host_ir']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Host" referenceName="hosts">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;newHost&quot;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="cc_sensor" containerMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_sensor_ir']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Sensor" referenceName="sensors">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newSensor"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="cc_gateway" containerMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_gateway_ir']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Gateway" referenceName="gateways">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newGateway"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_ectrigger" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_gateway_ir']/@subNodeMappings[name='sn_trigger_ir']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.EventCompletedTrigger" referenceName="triggers">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newTrigger"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_fitrigger" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_gateway_ir']/@subNodeMappings[name='sn_trigger_ir']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.FixedIntervalTrigger" referenceName="triggers">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newTrigger"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_measurementType" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@containerMappings[name='cn_sensor_ir']/@subNodeMappings[name='sn_measurementType_ir']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.MeasurementType" referenceName="measurementTypes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;newMeasurementType&quot;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="section_tools_edges">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ec_measurement_ir" edgeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@edgeMappings[name='ebe_measurement_ir']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Measurement" referenceName="triggeredEvents" variableName="measurement">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;newMeasurement&quot;"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="measurementType" valueExpression="var:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ec_reportingEvent_ir" edgeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_vql_ir']/@defaultLayer/@edgeMappings[name='ebe_reportingEvent_ir']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var: source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.ReportingEvent" referenceName="triggeredEvents" variableName="reportingEvent">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;new ReportingEvent&quot;"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="address" valueExpression="var:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="dd_concerto_telecare_tdk_aql_sr" domainClass="telecare.TelecareSystem" enablePopupBars="true">
+      <metamodel href="http://hu.bme.mit.inf.concerto/telecare/example/tdk/1.0#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="node_host_sr" semanticCandidatesExpression="aql: self.hosts" domainClass="telecare.Host">
+          <style xsi:type="style:LozengeNodeDescription" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="rbe_sensor_connectedto_sr" sourceMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_sensor_sr']" targetMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_gateway_sr']" targetFinderExpression="aql: self.connectedTo">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ebe_measurement_sr" semanticCandidatesExpression="aql: self.gateways.triggers.triggeredEvents->select(myEvent | myEvent.oclIsKindOf(telecare::Measurement))" sourceMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_gateway_sr']/@subNodeMappings[name='sn_trigger_sr']" targetMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_sensor_sr']/@subNodeMappings[name='sn_measurementType_sr']" targetFinderExpression="aql: self.measurementType" sourceFinderExpression="aql: self.trigger" domainClass="telecare.Measurement" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ebe_reportingEvent_sr" semanticCandidatesExpression="aql: self.gateways.triggers.triggeredEvents->select(myEvent | myEvent.oclIsKindOf(telecare::ReportingEvent))" sourceMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_gateway_sr']/@subNodeMappings[name='sn_trigger_sr']" targetMapping="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@nodeMappings[name='node_host_sr']" targetFinderExpression="aql: self.address" sourceFinderExpression="aql: self.trigger" domainClass="telecare.ReportingEvent" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="cn_sensor_sr" semanticCandidatesExpression="aql: self.sensors" domainClass="telecare.Sensor">
+          <subNodeMappings name="sn_measurementType_sr" semanticCandidatesExpression="aql: self.measurementTypes" domainClass="telecare.MeasurementType">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="cn_gateway_sr" semanticCandidatesExpression="aql: self.gateways" domainClass="telecare.Gateway">
+          <subNodeMappings name="sn_trigger_sr" semanticCandidatesExpression="aql: self.triggers" domainClass="telecare.Trigger">
+            <style xsi:type="style:EllipseNodeDescription" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="section_tools_elements">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_host" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@nodeMappings[name='node_host_sr']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql:self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Host" referenceName="hosts">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;newHost&quot;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="cc_sensor" containerMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_sensor_sr']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Sensor" referenceName="sensors">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newSensor"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="cc_gateway" containerMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_gateway_sr']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self.eContainer()">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Gateway" referenceName="gateways">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newGateway"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_ectrigger" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_gateway_sr']/@subNodeMappings[name='sn_trigger_sr']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.EventCompletedTrigger" referenceName="triggers">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newTrigger"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_fitrigger" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_gateway_sr']/@subNodeMappings[name='sn_trigger_sr']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.FixedIntervalTrigger" referenceName="triggers">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="newTrigger"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="nc_measurementType" nodeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@containerMappings[name='cn_sensor_sr']/@subNodeMappings[name='sn_measurementType_sr']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="aql: self">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.MeasurementType" referenceName="measurementTypes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;newMeasurementType&quot;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="section_tools_edges">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ec_measurement_sr" edgeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@edgeMappings[name='ebe_measurement_sr']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.Measurement" referenceName="triggeredEvents" variableName="measurement">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;newMeasurement&quot;"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="measurementType" valueExpression="var:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="ec_reportingEvent_sr" edgeMappings="//@ownedViewpoints[name='vp_concerto_telecare_tdk']/@ownedRepresentations[name='dd_concerto_telecare_tdk_aql_sr']/@defaultLayer/@edgeMappings[name='ebe_reportingEvent_sr']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var: source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="telecare.ReportingEvent" referenceName="triggeredEvents" variableName="reportingEvent">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="&quot;new ReportingEvent&quot;"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="address" valueExpression="var:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
