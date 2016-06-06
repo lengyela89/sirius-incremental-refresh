@@ -151,11 +151,11 @@ public class MeasurementUtil {
 	}
 	
 	public void printMeasurementResults() {
-		Map<Integer, List<MeasurementData>> averageList = Maps.newHashMap();
+		Map<Integer, List<MeasurementData>> averageList = Maps.<Integer, List<MeasurementData>>newHashMap();
 		
 		for (MeasurementData md : measurements) {
 			if (!averageList.containsKey(md.getGroupId())) {
-				averageList.put(md.getGroupId(), Lists.newArrayList());
+				averageList.put(md.getGroupId(), Lists.<MeasurementData>newArrayList());
 			}
 			
 			averageList.get(md.getGroupId()).add(md);

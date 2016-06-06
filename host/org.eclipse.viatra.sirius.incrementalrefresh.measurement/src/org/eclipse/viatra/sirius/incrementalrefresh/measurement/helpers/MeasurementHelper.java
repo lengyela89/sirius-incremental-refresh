@@ -160,7 +160,7 @@ public class MeasurementHelper {
 		/* Loading Configuration model */
 		ResourceSet rset = new ResourceSetImpl();
 		Resource configResource = rset.getResource(URI.createPlatformResourceURI("/hu.bme.mit.concerto.telecare.example.tdk.view.design/model/telecareview_transformation.configuration", true), true);
-		Configuration configurationModel = (Configuration) configResource.getContents().get(0);
+		final Configuration configurationModel = (Configuration) configResource.getContents().get(0);
 		configurationModel.setScheduler(Scheduler.MANUAL);
 		/* *************************** */
 		
@@ -174,7 +174,7 @@ public class MeasurementHelper {
 
 			try {
 				MeasurementUtil.getInstance().startMeasurement("Measure Trafo + IR -> Opening_" + i, model, "Measure Trafo + IR -> Opening");
-				ViewModelManager vmm = new ViewModelManager(configurationModel, new TransformationInitializer() {
+				final ViewModelManager vmm = new ViewModelManager(configurationModel, new TransformationInitializer() {
 					
 					@Override
 					public void beforeInitialize(ViewModelManager viewModelManager) {
@@ -212,7 +212,7 @@ public class MeasurementHelper {
 
 				
 				semanticRoot = configurationModel.getTargetModel().getContents().get(0);
-				CreateRepresentationCommand crc = new CreateRepresentationCommand(ted, "measure_" + i, semanticRoot, representationDescription, session);
+				final CreateRepresentationCommand crc = new CreateRepresentationCommand(ted, "measure_" + i, semanticRoot, representationDescription, session);
 				
 				ted.getCommandStack().execute(crc);
 				MeasurementUtil.getInstance().endMeasurement();
@@ -266,7 +266,7 @@ public class MeasurementHelper {
 		configurationModel.setTargetModel(createInMemoryResource(session, targetResourceURI));
 
 		try {
-			ViewModelManager vmm = new ViewModelManager(configurationModel, new TransformationInitializer() {
+			final ViewModelManager vmm = new ViewModelManager(configurationModel, new TransformationInitializer() {
 				
 				@Override
 				public void beforeInitialize(ViewModelManager viewModelManager) {
@@ -362,7 +362,7 @@ public class MeasurementHelper {
 		}
 	}
 	
-	private void measure_TC_TCV_Server_Creation(String model, TransactionalEditingDomain ted, EObject semanticRoot, ViewModelManager vmm, DRepresentation representation) {
+	private void measure_TC_TCV_Server_Creation(String model, TransactionalEditingDomain ted, final EObject semanticRoot, final ViewModelManager vmm, final DRepresentation representation) {
 		System.out.println("Measure TC -> TCV Server Creation");
 		
 		for (int i = 0; i < MEASUREMENT_REPEAT; i++) {
@@ -389,7 +389,7 @@ public class MeasurementHelper {
 		
 	}
 	
-	private void measure_TCV_Server_Creation(String model, TransactionalEditingDomain ted, EObject semanticRoot, DRepresentation representation) {
+	private void measure_TCV_Server_Creation(String model, TransactionalEditingDomain ted, final EObject semanticRoot, final DRepresentation representation) {
 		System.out.println("Measure TCV Server Creation");
 		
 		for (int i = 0; i < MEASUREMENT_REPEAT; i++) {
@@ -491,7 +491,7 @@ public class MeasurementHelper {
 		ted.getCommandStack().execute(new DeleteRepresentationCommand(ted, crc.getRepresentation(), session));
 	}
 	
-	private void measureNodeCreation(String model, TransactionalEditingDomain ted, EObject semanticRoot, DRepresentation representation) {
+	private void measureNodeCreation(String model, TransactionalEditingDomain ted, final EObject semanticRoot, final DRepresentation representation) {
 		System.out.println("Measure Node Creation (" + MEASUREMENT_REPEAT + ")");
 		
 		for (int i = 0; i < MEASUREMENT_REPEAT; i++) {
@@ -512,7 +512,7 @@ public class MeasurementHelper {
 		}
 	}
 	
-	private void measureRBECreation_Sensor_ConnectedTo(String model, TransactionalEditingDomain ted, EObject semanticRoot, DRepresentation representation) {
+	private void measureRBECreation_Sensor_ConnectedTo(String model, TransactionalEditingDomain ted, final EObject semanticRoot, final DRepresentation representation) {
 		System.out.println("Measure RelationBasedEdge Creation - Sensor_ConnectedTo (" + MEASUREMENT_REPEAT + ")");
 		
 		for (int i = 0; i < MEASUREMENT_REPEAT; i++) {
@@ -533,7 +533,7 @@ public class MeasurementHelper {
 		}
 	}
 	
-	private void measureEBECreation_Measurement(String model, TransactionalEditingDomain ted, EObject semanticRoot, DRepresentation representation) {
+	private void measureEBECreation_Measurement(String model, TransactionalEditingDomain ted, final EObject semanticRoot, final DRepresentation representation) {
 		System.out.println("Measure ElementBasedEdge Creation - Measurement (" + MEASUREMENT_REPEAT + ")");
 		
 		for (int i = 0; i < MEASUREMENT_REPEAT; i++) {
@@ -554,7 +554,7 @@ public class MeasurementHelper {
 		}
 	}
 	
-	private void measureEBECreation_ReportingEvent(String model, TransactionalEditingDomain ted, EObject semanticRoot, DRepresentation representation) {
+	private void measureEBECreation_ReportingEvent(String model, TransactionalEditingDomain ted, final EObject semanticRoot, final DRepresentation representation) {
 		System.out.println("Measure ElementBasedEdge Creation - ReportingEvent (" + MEASUREMENT_REPEAT + ")");
 		
 		for (int i = 0; i < MEASUREMENT_REPEAT; i++) {
